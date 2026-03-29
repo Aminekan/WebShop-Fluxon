@@ -1,0 +1,8 @@
+C:\Users\bib\Desktop\Projekt-Fluxon\shop_Fluxon\ShopAPI\obj\Debug\net9.0\ShopAPI.csproj.AssemblyReference.cache
+C:\Users\bib\Desktop\Projekt-Fluxon\shop_Fluxon\ShopAPI\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\bib\Desktop\Projekt-Fluxon\shop_Fluxon\ShopAPI\obj\Debug\net9.0\ShopAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bib\Desktop\Projekt-Fluxon\shop_Fluxon\ShopAPI\obj\Debug\net9.0\ShopAPI.AssemblyInfoInputs.cache
+C:\Users\bib\Desktop\Projekt-Fluxon\shop_Fluxon\ShopAPI\obj\Debug\net9.0\ShopAPI.AssemblyInfo.cs
+C:\Users\bib\Desktop\Projekt-Fluxon\shop_Fluxon\ShopAPI\obj\Debug\net9.0\ShopAPI.csproj.CoreCompileInputs.cache
+C:\Users\bib\Desktop\Projekt-Fluxon\shop_Fluxon\ShopAPI\obj\Debug\net9.0\ShopAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\bib\Desktop\Projekt-Fluxon\shop_Fluxon\ShopAPI\obj\Debug\net9.0\ShopAPI.MvcApplicationPartsAssemblyInfo.cache

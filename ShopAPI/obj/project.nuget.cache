@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nUFXGGdC8as=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bib\\Desktop\\Projekt-Fluxon\\shop_Fluxon\\ShopAPI\\ShopAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bib\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.14\\microsoft.aspnetcore.openapi.9.0.14.nupkg.sha512",
+    "C:\\Users\\bib\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
