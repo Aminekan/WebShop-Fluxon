@@ -2,10 +2,11 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using ShopAPI.Data;
 using ShopAPI.Services;
-using Microsoft.Extensions.FileProviders;
 using System.Text;
 
 namespace ShopAPI
@@ -19,7 +20,7 @@ namespace ShopAPI
             // MySQL Verbindung
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
             builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
+                options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 0)))
             );
 
             builder.Services.AddScoped<AuthService>();
