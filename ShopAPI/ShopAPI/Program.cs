@@ -67,12 +67,20 @@ namespace ShopAPI
             var app = builder.Build();
             app.UseCors("AllowReact");
             app.UseStaticFiles();
+
+            // Images Ordner automatisch erstellen
+            var imagesPath = Path.Combine(builder.Environment.ContentRootPath, "Images");
+            if (!Directory.Exists(imagesPath))
+            {
+                Directory.CreateDirectory(imagesPath);
+            }
+
             app.UseStaticFiles(new StaticFileOptions
             {
-                FileProvider = new PhysicalFileProvider(
-        Path.Combine(builder.Environment.ContentRootPath, "Images")),
+                FileProvider = new PhysicalFileProvider(imagesPath),
                 RequestPath = "/Images"
             });
+
             app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();
